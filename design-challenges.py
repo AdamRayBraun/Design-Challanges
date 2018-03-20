@@ -12,12 +12,26 @@ from http import server
 PAGE="""\
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Classroom 3 - surveillance</title>
+<style>
+	body, html {
+		height: 100%;
+		margin: 0;
+	}
+
+    html {
+        background: url("stream.mjpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+</style>
 </head>
 <body>
-<center><h2>Little Brother</h2></center>
-<center><h1>Classroom 3 - surveillance</h1></center>
-<center><img src="stream.mjpg" width="640" height="480"></center>
+    <center><h2>Little Brother</h2></center>
+    <center><h1>Classroom 3 - surveillance</h1></center>
 </body>
 </html>
 """
