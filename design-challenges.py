@@ -19,7 +19,6 @@ PAGE="""\
 		height: 100%;
 		margin: 0;
 	}
-
     html {
         background: url("stream.mjpg") no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -30,8 +29,7 @@ PAGE="""\
 </style>
 </head>
 <body>
-    <center><h2>Little Brother</h2></center>
-    <center><h1>Classroom 3 - surveillance</h1></center>
+
 </body>
 </html>
 """
