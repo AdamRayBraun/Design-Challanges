@@ -5,23 +5,38 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
+    <img id="logo" src="lilbro-face-message.png" width="13%" height="auto">
 
     <div class="gui">
         <div class="guiBox">
             <h1>Little Brother</h1>
             <h2>Classroom:  208</h2>
             <h2>Teacher:    Maria Turk</h2>
+            <nextLast>Last room         All rooms          Next room</nextLast>
         </div>
         <div class="guiBox">
-            <h3>Manual controls</h3>
-            <img id="controls" opacity="0.5" src="interface-controls.png" width="auto" height="auto">
+            <h2>Manual controls</h2>
+            <img id="controls" src="interface-controls.png"
+            width="auto" height="auto">
         </div>
         <div class="guiBox">
-            <img id="chart" opacity="0.5" src="chart.gif" width="auto" height="auto">
+            <h2>Creativity detected</h2>
+            <img id="chart"src="chart.gif"
+            width="auto" height="auto">
         </div>
     </div>
 
-<iframe id="stream" src="http://10.1.8.211:8000/index.html"></iframe>
+</div class="detction-box" id="high">
+        <h4>Creativity 99.99%</h4>
+    </div>
+</div class="detction-box" id="medium">
+        <h4>Creativity 20.6%</h4>
+    </div>
+</div class="detction-box" id="low">
+        <h4>Creativity 5.2%</h4>
+    </div>
 
+
+    <iframe id="stream" src="http://10.1.8.211:8000/index.html"></iframe>
 </body>
 </html>
