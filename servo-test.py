@@ -1,3 +1,6 @@
+# Code taken from Adafruit's raspberry pi servo example:
+# https://learn.adafruit.com/adafruits-raspberry-pi-lesson-8-using-a-servo-motor/software
+
 # Servo Control
 import time
 import wiringpi

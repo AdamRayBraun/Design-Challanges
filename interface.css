@@ -43,25 +43,7 @@ body, html {
     border-radius: 7px;
     text-align: center;
 }
-.detection-box {
-    border 3px solid;
-    border-radius: 30px;
-}
 
-#high {
-    border-color: red;
-    position: absolute;
-    top: 100px;
-    left:100px;
-}
-#medium {
-    border-color: red;
-    position: absolute;
-}
-#low {
-    border-color: red;
-    position: absolute;
-}
 h1 {
     font-size: 20px;
 }
